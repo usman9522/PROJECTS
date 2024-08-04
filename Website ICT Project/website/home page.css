@@ -1,0 +1,60 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-image:url("home.jpeg")
+}
+
+header {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+a:hover {
+  color: red;
+}
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  margin-top: 20px;
+  padding: 40px;
+  color: white;
+  font-size: 19px
+  
+ 
+}
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.alert {
+	background-color: #f44336; /* Red background color */
+	color: white; /* White text color */
+	padding: 20px; /* Padding to give some space around the text */
+}
+
